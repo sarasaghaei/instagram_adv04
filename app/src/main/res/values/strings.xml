@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="story">story</string>
+    <string name="name">name</string>
+    <string name="liked">Liked</string>
+    <string name="add_a_comment">Add a comment…</string>
+    <string name="setting">Setting</string>
+    <string name="archive">Archive</string>
+    <string name="insights">Insights</string>
+    <string name="your_activity">Your Activity</string>
+    <string name="qr_code">Qr Code</string>
+    <string name="saved">Saved</string>
+    <string name="close_freinds">close Freinds</string>
+    <string name="discover_people">Discover People</string>
+    <string name="report">Report…</string>
+    <string name="turn_on_post_notifications">Turn on Post Notifications…</string>
+    <string name="copy_link">Copy Link</string>
+    <string name="share_to">Share to..</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="mute">Mute</string>
+</resources>

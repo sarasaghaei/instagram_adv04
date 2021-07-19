@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:id="@+id/pagetoolbar"
+    >
+            <TextView
+                android:id="@+id/tv_backtoolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/ic_baseline_keyboard_backspace_24"/>
+            <TextView
+                android:id="@+id/tv_pagename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_toEndOf="@id/tv_backtoolbar"
+                android:layout_marginStart="5dp"
+                android:hint="name"
+                style="@style/textrecycle"/>
+            <TextView
+                android:id="@+id/tv_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tv_more"
+                android:background="@drawable/ic_baseline_notifications_none_24"/>
+            <TextView
+                android:id="@+id/tv_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/ic_baseline_more_vert_24"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/archive" android:title="@string/archive" android:icon="@drawable/ic_archive"/>
+    <item android:id="@+id/insights" android:title="@string/insights" android:icon="@drawable/ic_insights"/>
+    <item android:id="@+id/youractivity" android:title="@string/your_activity" android:icon="@drawable/ic_yourarshive"/>
+    <item android:id="@+id/qrcode" android:title="@string/qr_code" android:icon="@drawable/ic_qr"/>
+    <item android:id="@+id/saved" android:title="@string/saved" android:icon="@drawable/ic_marke"/>
+    <item android:id="@+id/closefriend" android:title="@string/close_freinds" android:icon="@drawable/ic_closefriend"/>
+    <item android:id="@+id/discoverpeople" android:title="@string/discover_people" android:icon="@drawable/ic_discoverpeople"/>
+</menu>
